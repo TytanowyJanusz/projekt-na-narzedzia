@@ -14,7 +14,7 @@ public class Zywieniowa1 {
         double bmi= waga/(Math.pow(wzrost/100,2));
         bmi =Math.floor(bmi*100)/100;
         System.out.println("Twoje BMI to: "+bmi);
-        
+        //dobrą praktyką byłoby użyć tutaj SWITCH zamiast wielu IF-ów
         if(bmi<16){
             System.out.println("Twoje BMI wskazuje na wygłodzenie!");
         }
