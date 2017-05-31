@@ -39,7 +39,7 @@ public class Zywieniowa1 {
         if(bmi>=40){
             System.out.println("Twoje BMI wskazuje na skrajną otyłość!");
         }
-        System.out.println("\nKalkulator BMI(Body Mass Index) wskazuje jedynie przybliżoną zawartość tłuszczu w organizmie. W niektórych przypadkach wskaźnik ten może sugerować błędne wnioski.");
+        System.out.println("\nKalkulator BMI (Body Mass Index) wskazuje jedynie przybliżoną zawartość tłuszczu w organizmie. W niektórych przypadkach wskaźnik ten może sugerować błędne wnioski.");
     }
     
 }
